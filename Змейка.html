@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="Змейка.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<title>Змейка</title>
+</head>
+<body id="body">
+
+
+
+	<div class="modal fade" id="modalwind" tabindex="-1" aria-labelledby="modalH" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content ">
+				<div class="modal-header justify-content-center">
+					<h3 class="modal-title" id="modalH">Game Over</h3>
+						
+
+
+				</div>
+
+				<div class="modal-body d-flex justify-content-center">
+					<button id="restart" class="btn btn-outline-success me-3">Играть сначала</button>
+					<button id="close" type="button" class="btn btn-outline-danger " data-bs-dismiss="modal">Закрыть</button>
+				</div>
+			</div>
+		</div>
+	</div>
+		
+	<canvas id="game" width="608" height="608">
+		<div id="vspliv" style="display: none;" class="p-5 bg-primary mx-auto" width="400px" height="400px">Привет</div>
+	</canvas>
+
+
+<button  type="button" class="btn btn-primary m-5 " data-bs-target="#modalwind" data-bs-toggle="modal">Вызвать</button>
+
+	
+
+	
+
+<script type="text/javascript" src="Змейка.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>

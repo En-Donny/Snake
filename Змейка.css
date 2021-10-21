@@ -1,0 +1,31 @@
+#game{
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	z-index:-1;
+	margin-top: 20px !important;
+}
+
+
+
+.modal-dialog{
+	margin-top: 20% !important;
+}
+
+
+#modalwind .modal-dialog .modal-content .modal-header h3{
+	color: white !important;
+}
+
+.modal-content{
+	background: black !important;
+}
+
+.modal-body button{
+	border: 2px solid  !important;
+	font-weight: 600;
+}
+
+
+
+
